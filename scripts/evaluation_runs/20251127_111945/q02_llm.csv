@@ -1,0 +1,6 @@
+course_id,title,score,reason
+C007,Cloud Computing with Azure,0.71,"This course directly builds upon Azure basics by covering core services, including Azure Kubernetes Service which aligns with container management interests."
+C008,DevOps Practices and CI/CD,0.7,This course directly addresses the user's interest in CI/CD pipelines and provides essential DevOps practices for modern cloud deployments.
+C009,Containerization with Docker and Kubernetes,0.6,This course perfectly aligns with the user's interest in container management by covering Docker and Kubernetes fundamentals and orchestration.
+C006,Data Engineering on AWS,0.05,"While a cloud-related course, it focuses on AWS data engineering, which does not align with the user's Azure background or stated interests."
+C001,Foundations of Machine Learning,0.0,This course is in a different domain (Machine Learning) and does not align with the user's current cloud background or stated interests.

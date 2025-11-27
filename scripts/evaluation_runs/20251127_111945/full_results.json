@@ -1,0 +1,363 @@
+[
+  {
+    "query": "I’ve completed the ‘Python Programming for Data Science’ course and enjoy data visualization. What should I take next?",
+    "profile": {
+      "completed_courses": [
+        "Python Programming for Data Science"
+      ],
+      "interests": "data visualization"
+    },
+    "raw": [
+      {
+        "course_id": "C016",
+        "title": "Python Programming for Data Science",
+        "description": "Learn Python fundamentals for data science: variables, control flow, functions, and object-oriented programming. Advance to data handling with pandas, numerical computing with NumPy, and basic plotting with matplotlib. You’ll build reproducible data workflows, clean and transform datasets, and perform exploratory analysis, laying the groundwork for machine learning and statistical modeling projects.",
+        "relevance": 0.5392
+      },
+      {
+        "course_id": "C017",
+        "title": "R Programming and Statistical Analysis",
+        "description": "Get introduced to R for statistical computing and graphics. Topics include data structures, control flow, and functional programming. Use tidyverse libraries—dplyr, ggplot2, tidyr—for data manipulation and visualization. Explore hypothesis testing, regression analysis, and ANOVA. Through labs, apply statistical methods to real-world datasets and communicate results with reproducible R Markdown reports.",
+        "relevance": 0.0227
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "description": "Understand foundational machine learning algorithms including regression, classification, clustering, and dimensionality reduction. This course covers data pre-processing, feature engineering, model selection, hyperparameter tuning, and evaluation metrics. Hands-on labs use scikit-learn and Python to implement end-to-end workflows on real-world datasets, preparing learners for practical machine learning applications with interactive engaging exercises.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C014",
+        "title": "Data Visualization with Tableau",
+        "description": "Transform raw data into compelling visual stories using Tableau. Learn to connect to diverse data sources, create interactive dashboards, and apply best practices in chart selection. Topics include calculated fields, parameters, LOD expressions, and storytelling features. Through real-world case studies, you’ll design user-driven analytics that reveal trends and drive data-informed decision making.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C011",
+        "title": "Big Data Analytics with Spark",
+        "description": "Process and analyze large datasets using Apache Spark and PySpark. The course covers RDDs, DataFrames, Spark SQL, and MLlib for machine learning at scale. You’ll learn cluster deployment on YARN or Kubernetes, performance tuning, and structured streaming for real-time analytics. Hands-on projects include building ETL pipelines and interactive dashboards, unlocking insights from big data.",
+        "relevance": 0.0
+      }
+    ],
+    "llm_json": [
+      {
+        "course_id": "C014",
+        "title": "Data Visualization with Tableau",
+        "score": 0.65,
+        "reason": "This course directly addresses your interest in data visualization by teaching you to create compelling visual stories with Tableau."
+      },
+      {
+        "course_id": "C017",
+        "title": "R Programming and Statistical Analysis",
+        "score": 0.37,
+        "reason": "This course introduces R for statistical analysis and includes data visualization with ggplot2, aligning with your interest."
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "score": 0.35,
+        "reason": "This course builds upon your Python foundation by introducing core machine learning algorithms, a natural progression in data science."
+      },
+      {
+        "course_id": "C011",
+        "title": "Big Data Analytics with Spark",
+        "score": 0.3,
+        "reason": "This course leverages your Python knowledge to introduce big data processing with Spark, a crucial skill for scaling data analysis."
+      },
+      {
+        "course_id": "C016",
+        "title": "Python Programming for Data Science",
+        "score": 0.0,
+        "reason": "This course has already been completed by the user."
+      }
+    ]
+  },
+  {
+    "query": "I know Azure basics and want to manage containers and build CI/CD pipelines. Recommend courses.",
+    "profile": {
+      "completed_courses": [
+        "Azure basics"
+      ],
+      "interests": "container management, CI/CD pipelines"
+    },
+    "raw": [
+      {
+        "course_id": "C007",
+        "title": "Cloud Computing with Azure",
+        "description": "Master Microsoft Azure’s core services: virtual machines, Azure Functions, Azure SQL Database, Cosmos DB, and Azure Kubernetes Service. Learn to deploy scalable web applications, configure networking and security, and implement infrastructure-as-code with ARM templates. Hands-on labs guide you through resource provisioning, cost management, and best practices for high availability and disaster recovery in Azure.",
+        "relevance": 0.0596
+      },
+      {
+        "course_id": "C009",
+        "title": "Containerization with Docker and Kubernetes",
+        "description": "Learn container fundamentals with Docker: images, containers, and Compose. Then advance to Kubernetes for orchestration: pods, deployments, services, and ingress. This course covers cluster provisioning, autoscaling, rolling updates, and Helm chart packaging. Hands-on labs deploy microservices architectures on a local or cloud-based Kubernetes cluster, ensuring reliability, scalability, and streamlined DevOps workflows.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C008",
+        "title": "DevOps Practices and CI/CD",
+        "description": "Adopt DevOps methodologies to accelerate software delivery. Explore version control with Git, continuous integration with Jenkins or GitHub Actions, infrastructure-as-code with Terraform, and automated testing frameworks. You’ll implement CI/CD pipelines, container registry integration, and blue-green deployments. Through practical labs, learn monitoring with Prometheus and Grafana, fostering a culture of collaboration and rapid iteration.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C006",
+        "title": "Data Engineering on AWS",
+        "description": "Build scalable data pipelines using AWS services. This course covers S3 data lakes, AWS Glue ETL jobs, AWS Lambda for serverless transformations, Amazon Redshift for warehousing, and AWS Kinesis for streaming ingestion. You’ll design end-to-end pipelines, automate workflows with AWS Step Functions, and monitor performance using CloudWatch, enabling robust, cost-effective data engineering solutions on the AWS cloud.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "description": "Understand foundational machine learning algorithms including regression, classification, clustering, and dimensionality reduction. This course covers data pre-processing, feature engineering, model selection, hyperparameter tuning, and evaluation metrics. Hands-on labs use scikit-learn and Python to implement end-to-end workflows on real-world datasets, preparing learners for practical machine learning applications with interactive engaging exercises.",
+        "relevance": 0.0
+      }
+    ],
+    "llm_json": [
+      {
+        "course_id": "C007",
+        "title": "Cloud Computing with Azure",
+        "score": 0.71,
+        "reason": "This course directly builds upon Azure basics by covering core services, including Azure Kubernetes Service which aligns with container management interests."
+      },
+      {
+        "course_id": "C008",
+        "title": "DevOps Practices and CI/CD",
+        "score": 0.7,
+        "reason": "This course directly addresses the user's interest in CI/CD pipelines and provides essential DevOps practices for modern cloud deployments."
+      },
+      {
+        "course_id": "C009",
+        "title": "Containerization with Docker and Kubernetes",
+        "score": 0.6,
+        "reason": "This course perfectly aligns with the user's interest in container management by covering Docker and Kubernetes fundamentals and orchestration."
+      },
+      {
+        "course_id": "C006",
+        "title": "Data Engineering on AWS",
+        "score": 0.05,
+        "reason": "While a cloud-related course, it focuses on AWS data engineering, which does not align with the user's Azure background or stated interests."
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "score": 0.0,
+        "reason": "This course is in a different domain (Machine Learning) and does not align with the user's current cloud background or stated interests."
+      }
+    ]
+  },
+  {
+    "query": "My background is in ML fundamentals; I’d like to specialize in neural networks and production workflows.",
+    "profile": {
+      "completed_courses": [
+        "ML fundamentals"
+      ],
+      "interests": "neural networks and production workflows"
+    },
+    "raw": [
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "description": "Understand foundational machine learning algorithms including regression, classification, clustering, and dimensionality reduction. This course covers data pre-processing, feature engineering, model selection, hyperparameter tuning, and evaluation metrics. Hands-on labs use scikit-learn and Python to implement end-to-end workflows on real-world datasets, preparing learners for practical machine learning applications with interactive engaging exercises.",
+        "relevance": 0.1146
+      },
+      {
+        "course_id": "C002",
+        "title": "Deep Learning with TensorFlow and Keras",
+        "description": "Explore neural network architectures using TensorFlow and Keras frameworks. This course covers feedforward networks, convolutional neural networks, recurrent neural networks, and transfer learning. Learn to build, train, evaluate, and optimize deep learning models for image classification, sequence modeling, and text processing. Includes hands-on labs and real-world project implementations with interactive exercises.",
+        "relevance": 0.098
+      },
+      {
+        "course_id": "C025",
+        "title": "MLOps: Productionizing Machine Learning",
+        "description": "Master the practices needed to deploy and maintain ML models at scale. Topics include model versioning with MLflow, containerization, CI/CD for ML, monitoring with Prometheus, and data drift detection. You’ll build end-to-end pipelines that automate training, testing, deployment, and governance, ensuring robust, reproducible, and compliant machine learning systems in production environments.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C004",
+        "title": "Computer Vision and Image Processing",
+        "description": "Learn the principles of computer vision and image processing. Topics include filtering, edge detection, feature extraction, image segmentation, object detection, and image classification using CNNs. Hands-on labs in Python leverage OpenCV, scikit-image, and TensorFlow. By project’s end, you will build a pipeline to analyze and classify images, detect objects, and perform real-time video processing.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C003",
+        "title": "Natural Language Processing Fundamentals",
+        "description": "Dive into NLP techniques for processing and understanding human language. You will learn tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, and sentiment analysis. The course includes transformer architectures, attention mechanisms, and fine-tuning pre-trained language models. Hands-on Python labs use Hugging Face and spaCy for end-to-end natural language pipelines and projects.",
+        "relevance": 0.0
+      }
+    ],
+    "llm_json": [
+      {
+        "course_id": "C002",
+        "title": "Deep Learning with TensorFlow and Keras",
+        "score": 0.8,
+        "reason": "This course directly aligns with your interest in neural networks and provides a strong next step from ML fundamentals into specialized deep learning techniques."
+      },
+      {
+        "course_id": "C025",
+        "title": "MLOps: Productionizing Machine Learning",
+        "score": 0.7,
+        "reason": "This course perfectly matches your interest in production workflows by teaching you how to deploy and maintain machine learning models at scale."
+      },
+      {
+        "course_id": "C004",
+        "title": "Computer Vision and Image Processing",
+        "score": 0.35,
+        "reason": "This course offers a specialization in computer vision, including applications of CNNs, which could extend your knowledge from ML fundamentals."
+      },
+      {
+        "course_id": "C003",
+        "title": "Natural Language Processing Fundamentals",
+        "score": 0.25,
+        "reason": "This course introduces fundamental NLP techniques, offering a new specialization area beyond your core ML knowledge."
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "score": 0.0,
+        "reason": "This course covers foundational machine learning concepts which largely overlap with your completed \"ML fundamentals\" course."
+      }
+    ]
+  },
+  {
+    "query": "I want to learn to build and deploy microservices with Kubernetes—what courses fit best?",
+    "profile": {
+      "completed_courses": [],
+      "interests": "building and deploying microservices with Kubernetes"
+    },
+    "raw": [
+      {
+        "course_id": "C009",
+        "title": "Containerization with Docker and Kubernetes",
+        "description": "Learn container fundamentals with Docker: images, containers, and Compose. Then advance to Kubernetes for orchestration: pods, deployments, services, and ingress. This course covers cluster provisioning, autoscaling, rolling updates, and Helm chart packaging. Hands-on labs deploy microservices architectures on a local or cloud-based Kubernetes cluster, ensuring reliability, scalability, and streamlined DevOps workflows.",
+        "relevance": 0.464
+      },
+      {
+        "course_id": "C007",
+        "title": "Cloud Computing with Azure",
+        "description": "Master Microsoft Azure’s core services: virtual machines, Azure Functions, Azure SQL Database, Cosmos DB, and Azure Kubernetes Service. Learn to deploy scalable web applications, configure networking and security, and implement infrastructure-as-code with ARM templates. Hands-on labs guide you through resource provisioning, cost management, and best practices for high availability and disaster recovery in Azure.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C010",
+        "title": "APIs and Microservices Architecture",
+        "description": "Design and implement RESTful and GraphQL APIs using Node.js, Express, or Python FastAPI. Learn microservices patterns: service discovery, circuit breakers, and API gateways. Topics include containerized deployment, versioning strategies, and security best practices (OAuth2, JWT). Labs guide you through building, testing, and deploying interconnected services, enabling scalable, maintainable distributed systems.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C025",
+        "title": "MLOps: Productionizing Machine Learning",
+        "description": "Master the practices needed to deploy and maintain ML models at scale. Topics include model versioning with MLflow, containerization, CI/CD for ML, monitoring with Prometheus, and data drift detection. You’ll build end-to-end pipelines that automate training, testing, deployment, and governance, ensuring robust, reproducible, and compliant machine learning systems in production environments.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C002",
+        "title": "Deep Learning with TensorFlow and Keras",
+        "description": "Explore neural network architectures using TensorFlow and Keras frameworks. This course covers feedforward networks, convolutional neural networks, recurrent neural networks, and transfer learning. Learn to build, train, evaluate, and optimize deep learning models for image classification, sequence modeling, and text processing. Includes hands-on labs and real-world project implementations with interactive exercises.",
+        "relevance": 0.0
+      }
+    ],
+    "llm_json": [
+      {
+        "course_id": "C009",
+        "title": "Containerization with Docker and Kubernetes",
+        "score": 0.91,
+        "reason": "This course directly addresses your interest in Kubernetes for deploying microservices by covering containerization fundamentals and orchestration."
+      },
+      {
+        "course_id": "C010",
+        "title": "APIs and Microservices Architecture",
+        "score": 0.45,
+        "reason": "This course is highly relevant as it focuses on designing and implementing microservices, which is a core part of your interest in building such systems."
+      },
+      {
+        "course_id": "C007",
+        "title": "Cloud Computing with Azure",
+        "score": 0.35,
+        "reason": "This course introduces cloud deployment with Azure, including Azure Kubernetes Service, which aligns with your interest in deploying microservices with Kubernetes."
+      },
+      {
+        "course_id": "C025",
+        "title": "MLOps: Productionizing Machine Learning",
+        "score": 0.1,
+        "reason": "While focused on ML, this course includes relevant topics like containerization and CI/CD that could be broadly applicable to deploying systems."
+      },
+      {
+        "course_id": "C002",
+        "title": "Deep Learning with TensorFlow and Keras",
+        "score": 0.0,
+        "reason": "This course is not directly aligned with your stated interests in building and deploying microservices with Kubernetes."
+      }
+    ]
+  },
+  {
+    "query": "I’m interested in blockchain and smart contracts but have no prior experience. Which courses do you suggest?",
+    "profile": {
+      "completed_courses": [],
+      "interests": "blockchain and smart contracts"
+    },
+    "raw": [
+      {
+        "course_id": "C023",
+        "title": "Blockchain Technology and Smart Contracts",
+        "description": "Understand blockchain fundamentals: cryptographic hashing, consensus algorithms, and distributed ledgers. Learn to develop smart contracts using Solidity on Ethereum. Topics include token standards (ERC-20, ERC-721), decentralized application patterns, and security best practices. Hands-on labs deploy contracts, interact via Web3.js, and build a simple decentralized marketplace.",
+        "relevance": 0.2764
+      },
+      {
+        "course_id": "C021",
+        "title": "Cybersecurity Fundamentals",
+        "description": "Get introduced to cybersecurity principles: threat modeling, encryption, network security, and incident response. Learn about common vulnerabilities (OWASP Top 10), secure coding practices, and vulnerability assessment tools. Hands-on labs include configuring firewalls, running penetration tests with Kali Linux, and implementing multi-factor authentication, preparing you to protect systems and data against modern cyber threats.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C019",
+        "title": "Agile and Scrum Mastery",
+        "description": "Adopt Agile frameworks to enhance team productivity. This course covers Scrum roles, ceremonies, artifacts, and scaling with SAFe. Learn backlog grooming, sprint planning, retrospectives, and agile metrics. Interactive simulations and group exercises help you practice facilitation, conflict resolution, and continuous improvement, equipping you to lead high-performing agile teams in dynamic environments.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "description": "Understand foundational machine learning algorithms including regression, classification, clustering, and dimensionality reduction. This course covers data pre-processing, feature engineering, model selection, hyperparameter tuning, and evaluation metrics. Hands-on labs use scikit-learn and Python to implement end-to-end workflows on real-world datasets, preparing learners for practical machine learning applications with interactive engaging exercises.",
+        "relevance": 0.0
+      },
+      {
+        "course_id": "C010",
+        "title": "APIs and Microservices Architecture",
+        "description": "Design and implement RESTful and GraphQL APIs using Node.js, Express, or Python FastAPI. Learn microservices patterns: service discovery, circuit breakers, and API gateways. Topics include containerized deployment, versioning strategies, and security best practices (OAuth2, JWT). Labs guide you through building, testing, and deploying interconnected services, enabling scalable, maintainable distributed systems.",
+        "relevance": 0.0
+      }
+    ],
+    "llm_json": [
+      {
+        "course_id": "C023",
+        "title": "Blockchain Technology and Smart Contracts",
+        "score": 0.63,
+        "reason": "This course directly aligns with your strong interest in blockchain and smart contracts, covering essential fundamentals and development."
+      },
+      {
+        "course_id": "C021",
+        "title": "Cybersecurity Fundamentals",
+        "score": 0.05,
+        "reason": "Cybersecurity fundamentals provide a valuable foundation for understanding the security aspects inherent in blockchain technology."
+      },
+      {
+        "course_id": "C019",
+        "title": "Agile and Scrum Mastery",
+        "score": 0.0,
+        "reason": "This course focuses on project management methodologies and does not align with your stated interests in blockchain."
+      },
+      {
+        "course_id": "C001",
+        "title": "Foundations of Machine Learning",
+        "score": 0.0,
+        "reason": "This course covers machine learning fundamentals, which is outside your specified interests in blockchain and smart contracts."
+      },
+      {
+        "course_id": "C010",
+        "title": "APIs and Microservices Architecture",
+        "score": 0.05,
+        "reason": "Understanding APIs and microservices can be beneficial for integrating and building applications around blockchain solutions."
+      }
+    ]
+  }
+]

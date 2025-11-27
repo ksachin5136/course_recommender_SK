@@ -1,0 +1,6 @@
+course_id,title,score,reason
+C002,Deep Learning with TensorFlow and Keras,0.8,This course directly aligns with your interest in neural networks and provides a strong next step from ML fundamentals into specialized deep learning techniques.
+C025,MLOps: Productionizing Machine Learning,0.7,This course perfectly matches your interest in production workflows by teaching you how to deploy and maintain machine learning models at scale.
+C004,Computer Vision and Image Processing,0.35,"This course offers a specialization in computer vision, including applications of CNNs, which could extend your knowledge from ML fundamentals."
+C003,Natural Language Processing Fundamentals,0.25,"This course introduces fundamental NLP techniques, offering a new specialization area beyond your core ML knowledge."
+C001,Foundations of Machine Learning,0.0,"This course covers foundational machine learning concepts which largely overlap with your completed ""ML fundamentals"" course."

@@ -1,0 +1,6 @@
+course_id,title,score,reason
+C014,Data Visualization with Tableau,0.65,This course directly addresses your interest in data visualization by teaching you to create compelling visual stories with Tableau.
+C017,R Programming and Statistical Analysis,0.37,"This course introduces R for statistical analysis and includes data visualization with ggplot2, aligning with your interest."
+C001,Foundations of Machine Learning,0.35,"This course builds upon your Python foundation by introducing core machine learning algorithms, a natural progression in data science."
+C011,Big Data Analytics with Spark,0.3,"This course leverages your Python knowledge to introduce big data processing with Spark, a crucial skill for scaling data analysis."
+C016,Python Programming for Data Science,0.0,This course has already been completed by the user.

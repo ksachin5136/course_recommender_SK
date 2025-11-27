@@ -1,0 +1,6 @@
+course_id,title,score,reason
+C009,Containerization with Docker and Kubernetes,0.91,This course directly addresses your interest in Kubernetes for deploying microservices by covering containerization fundamentals and orchestration.
+C010,APIs and Microservices Architecture,0.45,"This course is highly relevant as it focuses on designing and implementing microservices, which is a core part of your interest in building such systems."
+C007,Cloud Computing with Azure,0.35,"This course introduces cloud deployment with Azure, including Azure Kubernetes Service, which aligns with your interest in deploying microservices with Kubernetes."
+C025,MLOps: Productionizing Machine Learning,0.1,"While focused on ML, this course includes relevant topics like containerization and CI/CD that could be broadly applicable to deploying systems."
+C002,Deep Learning with TensorFlow and Keras,0.0,This course is not directly aligned with your stated interests in building and deploying microservices with Kubernetes.
